@@ -1,0 +1,57 @@
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#E4E4E4;
+    
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+    position:fixed;             /* position in the center of the screen */
+    left:50%;
+    bottom:10%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    //padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    //margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+    margin-left: -112px;                               /* offset horizontal: half of text area width */
+}
+
+
+.listening {
+    background-color:#cccccc;
+    display:block;
+}
+
+#camera-btn {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #ff0000;
+    padding: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#camera-btn:hover, #camera-btn:active {
+    background-color: #e0710e;
+}
+
+#myImage{
+    width: 100%;
+    height: auto;
+}
+
+
+
