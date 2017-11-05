@@ -5,7 +5,9 @@ A PhoneGap template that demos the use of the camera plugin
 ## How to use
 
 Create a new phonegap project using Phonegap cli or desktop app 
-Replace the www directory with this repository.
+Replace the www directory with the www folder in this repository.
+
+Replace the confing.xml with the confing.xml in this repository.
 
 ## More information
 
