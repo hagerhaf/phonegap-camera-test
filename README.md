@@ -1,22 +1,41 @@
-# Hello World PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
+# PhoneGap Camera Plugin demo [![bitHound Score][bithound-img]][bithound-url]
 
-A PhoneGap Hello World template
+A PhoneGap template that demos the use of the camera plugin
 
-## Usage
+## How to use
 
-#### PhoneGap CLI
+Create a new phonegap project using Phonegap cli or desktop app 
+Replace the www directory with this repository.
 
-The hello-world template is the default when you create a new application using the [phonegap-cli][phonegap-cli-url].
+## More information
 
-    phonegap create my-app
+This repository differs from the standard “hello world” application by rewriting a simpler event handler that binds any custom JavaScript functions to the status of the mobile device (deviceready).
 
-Create an app using this template specifically:
+The relevant code live in www/js/index.js.
 
-    phonegap create my-app --template hello-world
+## Code example
 
-To see a list of other available PhoneGap templates:
+The event Listener:
+```
+document.addEventListener('deviceready', function() {
+    
+});
+```
 
-    phonegap template list
+An example function:
+```
+document.addEventListener('deviceready', function() {
+    
+    //example function
+    function changeSomeText() {
+        document.getElementById('change').innerHTML = "this text was changed by javascript";
+    }
+
+    //run the example function
+    changeSomeText();
+});
+```
+
 
 ## [config.xml][config-xml]
 
