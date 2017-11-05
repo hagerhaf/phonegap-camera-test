@@ -2,7 +2,7 @@
 <widget id="com.roddickinson.camera" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>camera test</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        A PhoneGap template that demos the use of the camera plugin.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
